@@ -1,0 +1,10 @@
+it looks like my pam config will have something like this:
+auth sufficient pam_py.c pam_droid.py
+
+Will I need a password group item?
+should I look in /etc/pam.d/system-auth?
+
+Making the syncing app pam-aware will let me set up a rolling code asking the user
+for auth, but not insisting the user enter their password --- or requiring that they
+
+have one.
